@@ -1,0 +1,3435 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.18363 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Python314/Scripts/mingw32-make.exe.com"
+      - "C:/Python314/Scripts/mingw32-make.exe"
+      - "C:/Python314/mingw32-make.exe.com"
+      - "C:/Python314/mingw32-make.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/nodejs/mingw32-make.exe.com"
+      - "C:/Program Files/nodejs/mingw32-make.exe"
+      - "C:/ProgramData/chocolatey/bin/mingw32-make.exe.com"
+      - "C:/ProgramData/chocolatey/bin/mingw32-make.exe"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
+      - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/MinGW/bin/mingw32-make.exe.com"
+    found: "C:/MinGW/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Python314/Scripts/c++.com"
+      - "C:/Python314/Scripts/c++.exe"
+      - "C:/Python314/Scripts/c++"
+      - "C:/Python314/Scripts/g++.com"
+      - "C:/Python314/Scripts/g++.exe"
+      - "C:/Python314/Scripts/g++"
+      - "C:/Python314/Scripts/cl.com"
+      - "C:/Python314/Scripts/cl.exe"
+      - "C:/Python314/Scripts/cl"
+      - "C:/Python314/Scripts/bcc.com"
+      - "C:/Python314/Scripts/bcc.exe"
+      - "C:/Python314/Scripts/bcc"
+      - "C:/Python314/Scripts/icx.com"
+      - "C:/Python314/Scripts/icx.exe"
+      - "C:/Python314/Scripts/icx"
+      - "C:/Python314/Scripts/clang++.com"
+      - "C:/Python314/Scripts/clang++.exe"
+      - "C:/Python314/Scripts/clang++"
+      - "C:/Python314/c++.com"
+      - "C:/Python314/c++.exe"
+      - "C:/Python314/c++"
+      - "C:/Python314/g++.com"
+      - "C:/Python314/g++.exe"
+      - "C:/Python314/g++"
+      - "C:/Python314/cl.com"
+      - "C:/Python314/cl.exe"
+      - "C:/Python314/cl"
+      - "C:/Python314/bcc.com"
+      - "C:/Python314/bcc.exe"
+      - "C:/Python314/bcc"
+      - "C:/Python314/icx.com"
+      - "C:/Python314/icx.exe"
+      - "C:/Python314/icx"
+      - "C:/Python314/clang++.com"
+      - "C:/Python314/clang++.exe"
+      - "C:/Python314/clang++"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/c++.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/c++.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/c++"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/g++.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/g++.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/g++"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/cl"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/bcc"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/icx"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang++.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang++.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/clang++"
+      - "C:/Windows/System32/c++.com"
+      - "C:/Windows/System32/c++.exe"
+      - "C:/Windows/System32/c++"
+      - "C:/Windows/System32/g++.com"
+      - "C:/Windows/System32/g++.exe"
+      - "C:/Windows/System32/g++"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang++.com"
+      - "C:/Windows/System32/clang++.exe"
+      - "C:/Windows/System32/clang++"
+      - "C:/Windows/c++.com"
+      - "C:/Windows/c++.exe"
+      - "C:/Windows/c++"
+      - "C:/Windows/g++.com"
+      - "C:/Windows/g++.exe"
+      - "C:/Windows/g++"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang++.com"
+      - "C:/Windows/clang++.exe"
+      - "C:/Windows/clang++"
+      - "C:/Windows/System32/wbem/c++.com"
+      - "C:/Windows/System32/wbem/c++.exe"
+      - "C:/Windows/System32/wbem/c++"
+      - "C:/Windows/System32/wbem/g++.com"
+      - "C:/Windows/System32/wbem/g++.exe"
+      - "C:/Windows/System32/wbem/g++"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang++.com"
+      - "C:/Windows/System32/wbem/clang++.exe"
+      - "C:/Windows/System32/wbem/clang++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++"
+      - "C:/Windows/System32/OpenSSH/c++.com"
+      - "C:/Windows/System32/OpenSSH/c++.exe"
+      - "C:/Windows/System32/OpenSSH/c++"
+      - "C:/Windows/System32/OpenSSH/g++.com"
+      - "C:/Windows/System32/OpenSSH/g++.exe"
+      - "C:/Windows/System32/OpenSSH/g++"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang++.com"
+      - "C:/Windows/System32/OpenSSH/clang++.exe"
+      - "C:/Windows/System32/OpenSSH/clang++"
+      - "C:/Program Files/nodejs/c++.com"
+      - "C:/Program Files/nodejs/c++.exe"
+      - "C:/Program Files/nodejs/c++"
+      - "C:/Program Files/nodejs/g++.com"
+      - "C:/Program Files/nodejs/g++.exe"
+      - "C:/Program Files/nodejs/g++"
+      - "C:/Program Files/nodejs/cl.com"
+      - "C:/Program Files/nodejs/cl.exe"
+      - "C:/Program Files/nodejs/cl"
+      - "C:/Program Files/nodejs/bcc.com"
+      - "C:/Program Files/nodejs/bcc.exe"
+      - "C:/Program Files/nodejs/bcc"
+      - "C:/Program Files/nodejs/icx.com"
+      - "C:/Program Files/nodejs/icx.exe"
+      - "C:/Program Files/nodejs/icx"
+      - "C:/Program Files/nodejs/clang++.com"
+      - "C:/Program Files/nodejs/clang++.exe"
+      - "C:/Program Files/nodejs/clang++"
+      - "C:/ProgramData/chocolatey/bin/c++.com"
+      - "C:/ProgramData/chocolatey/bin/c++.exe"
+      - "C:/ProgramData/chocolatey/bin/c++"
+      - "C:/ProgramData/chocolatey/bin/g++.com"
+      - "C:/ProgramData/chocolatey/bin/g++.exe"
+      - "C:/ProgramData/chocolatey/bin/g++"
+      - "C:/ProgramData/chocolatey/bin/cl.com"
+      - "C:/ProgramData/chocolatey/bin/cl.exe"
+      - "C:/ProgramData/chocolatey/bin/cl"
+      - "C:/ProgramData/chocolatey/bin/bcc.com"
+      - "C:/ProgramData/chocolatey/bin/bcc.exe"
+      - "C:/ProgramData/chocolatey/bin/bcc"
+      - "C:/ProgramData/chocolatey/bin/icx.com"
+      - "C:/ProgramData/chocolatey/bin/icx.exe"
+      - "C:/ProgramData/chocolatey/bin/icx"
+      - "C:/ProgramData/chocolatey/bin/clang++.com"
+      - "C:/ProgramData/chocolatey/bin/clang++.exe"
+      - "C:/ProgramData/chocolatey/bin/clang++"
+      - "C:/Program Files/Git/cmd/c++.com"
+      - "C:/Program Files/Git/cmd/c++.exe"
+      - "C:/Program Files/Git/cmd/c++"
+      - "C:/Program Files/Git/cmd/g++.com"
+      - "C:/Program Files/Git/cmd/g++.exe"
+      - "C:/Program Files/Git/cmd/g++"
+      - "C:/Program Files/Git/cmd/cl.com"
+      - "C:/Program Files/Git/cmd/cl.exe"
+      - "C:/Program Files/Git/cmd/cl"
+      - "C:/Program Files/Git/cmd/bcc.com"
+      - "C:/Program Files/Git/cmd/bcc.exe"
+      - "C:/Program Files/Git/cmd/bcc"
+      - "C:/Program Files/Git/cmd/icx.com"
+      - "C:/Program Files/Git/cmd/icx.exe"
+      - "C:/Program Files/Git/cmd/icx"
+      - "C:/Program Files/Git/cmd/clang++.com"
+      - "C:/Program Files/Git/cmd/clang++.exe"
+      - "C:/Program Files/Git/cmd/clang++"
+      - "C:/MinGW/bin/c++.com"
+    found: "C:/MinGW/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/4.3.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/ar.com"
+    found: "C:/MinGW/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/ranlib.com"
+    found: "C:/MinGW/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/strip.com"
+    found: "C:/MinGW/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/ld.com"
+    found: "C:/MinGW/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/nm.com"
+    found: "C:/MinGW/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/objdump.com"
+    found: "C:/MinGW/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/objcopy.com"
+    found: "C:/MinGW/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/readelf.com"
+    found: "C:/MinGW/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/dlltool.com"
+    found: "C:/MinGW/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/addr2line.com"
+    found: "C:/MinGW/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/tapi.com"
+      - "C:/MinGW/bin/tapi.exe"
+      - "C:/MinGW/bin/tapi"
+      - "C:/Python314/Scripts/tapi.com"
+      - "C:/Python314/Scripts/tapi.exe"
+      - "C:/Python314/Scripts/tapi"
+      - "C:/Python314/tapi.com"
+      - "C:/Python314/tapi.exe"
+      - "C:/Python314/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "C:/Program Files/Git/cmd/tapi.com"
+      - "C:/Program Files/Git/cmd/tapi.exe"
+      - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/tapi.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/tapi.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/tapi"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/tapi.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/tapi.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/tapi"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/tech/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/tech/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-6.3"
+      - "gcc-ar-6"
+      - "gcc-ar6"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/gcc-ar-6.3.com"
+      - "C:/MinGW/bin/gcc-ar-6.3.exe"
+      - "C:/MinGW/bin/gcc-ar-6.3"
+      - "C:/Python314/Scripts/gcc-ar-6.3.com"
+      - "C:/Python314/Scripts/gcc-ar-6.3.exe"
+      - "C:/Python314/Scripts/gcc-ar-6.3"
+      - "C:/Python314/gcc-ar-6.3.com"
+      - "C:/Python314/gcc-ar-6.3.exe"
+      - "C:/Python314/gcc-ar-6.3"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.3.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.3.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.3"
+      - "C:/Windows/System32/gcc-ar-6.3.com"
+      - "C:/Windows/System32/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/gcc-ar-6.3"
+      - "C:/Windows/gcc-ar-6.3.com"
+      - "C:/Windows/gcc-ar-6.3.exe"
+      - "C:/Windows/gcc-ar-6.3"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3.com"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-6.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.3"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6.3"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.3"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6.3.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6.3.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6.3"
+      - "C:/MinGW/bin/gcc-ar-6.com"
+      - "C:/MinGW/bin/gcc-ar-6.exe"
+      - "C:/MinGW/bin/gcc-ar-6"
+      - "C:/Python314/Scripts/gcc-ar-6.com"
+      - "C:/Python314/Scripts/gcc-ar-6.exe"
+      - "C:/Python314/Scripts/gcc-ar-6"
+      - "C:/Python314/gcc-ar-6.com"
+      - "C:/Python314/gcc-ar-6.exe"
+      - "C:/Python314/gcc-ar-6"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-6"
+      - "C:/Windows/System32/gcc-ar-6.com"
+      - "C:/Windows/System32/gcc-ar-6.exe"
+      - "C:/Windows/System32/gcc-ar-6"
+      - "C:/Windows/gcc-ar-6.com"
+      - "C:/Windows/gcc-ar-6.exe"
+      - "C:/Windows/gcc-ar-6"
+      - "C:/Windows/System32/wbem/gcc-ar-6.com"
+      - "C:/Windows/System32/wbem/gcc-ar-6.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-6"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-6"
+      - "C:/Program Files/nodejs/gcc-ar-6.com"
+      - "C:/Program Files/nodejs/gcc-ar-6.exe"
+      - "C:/Program Files/nodejs/gcc-ar-6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-6"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-6"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar-6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar-6"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar-6"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-6"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar-6"
+      - "C:/MinGW/bin/gcc-ar6.com"
+      - "C:/MinGW/bin/gcc-ar6.exe"
+      - "C:/MinGW/bin/gcc-ar6"
+      - "C:/Python314/Scripts/gcc-ar6.com"
+      - "C:/Python314/Scripts/gcc-ar6.exe"
+      - "C:/Python314/Scripts/gcc-ar6"
+      - "C:/Python314/gcc-ar6.com"
+      - "C:/Python314/gcc-ar6.exe"
+      - "C:/Python314/gcc-ar6"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar6.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar6.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar6"
+      - "C:/Windows/System32/gcc-ar6.com"
+      - "C:/Windows/System32/gcc-ar6.exe"
+      - "C:/Windows/System32/gcc-ar6"
+      - "C:/Windows/gcc-ar6.com"
+      - "C:/Windows/gcc-ar6.exe"
+      - "C:/Windows/gcc-ar6"
+      - "C:/Windows/System32/wbem/gcc-ar6.com"
+      - "C:/Windows/System32/wbem/gcc-ar6.exe"
+      - "C:/Windows/System32/wbem/gcc-ar6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar6"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar6"
+      - "C:/Program Files/nodejs/gcc-ar6.com"
+      - "C:/Program Files/nodejs/gcc-ar6.exe"
+      - "C:/Program Files/nodejs/gcc-ar6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar6"
+      - "C:/Program Files/Git/cmd/gcc-ar6.com"
+      - "C:/Program Files/Git/cmd/gcc-ar6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar6"
+      - "C:/Program Files/CMake/bin/gcc-ar6.com"
+      - "C:/Program Files/CMake/bin/gcc-ar6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ar6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ar6"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar6.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar6.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ar6"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar6"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar6.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar6.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ar6"
+      - "C:/MinGW/bin/gcc-ar.com"
+    found: "C:/MinGW/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-6.3"
+      - "gcc-ranlib-6"
+      - "gcc-ranlib6"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/MinGW/bin/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/MinGW/bin/gcc-ranlib-6.3.com"
+      - "C:/MinGW/bin/gcc-ranlib-6.3.exe"
+      - "C:/MinGW/bin/gcc-ranlib-6.3"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3.com"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3.exe"
+      - "C:/Python314/Scripts/gcc-ranlib-6.3"
+      - "C:/Python314/gcc-ranlib-6.3.com"
+      - "C:/Python314/gcc-ranlib-6.3.exe"
+      - "C:/Python314/gcc-ranlib-6.3"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.3"
+      - "C:/Windows/System32/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/gcc-ranlib-6.3"
+      - "C:/Windows/gcc-ranlib-6.3.com"
+      - "C:/Windows/gcc-ranlib-6.3.exe"
+      - "C:/Windows/gcc-ranlib-6.3"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.3"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.3"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.3"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.3"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.3"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6.3"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.3"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.3"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6.3.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6.3.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6.3"
+      - "C:/MinGW/bin/gcc-ranlib-6.com"
+      - "C:/MinGW/bin/gcc-ranlib-6.exe"
+      - "C:/MinGW/bin/gcc-ranlib-6"
+      - "C:/Python314/Scripts/gcc-ranlib-6.com"
+      - "C:/Python314/Scripts/gcc-ranlib-6.exe"
+      - "C:/Python314/Scripts/gcc-ranlib-6"
+      - "C:/Python314/gcc-ranlib-6.com"
+      - "C:/Python314/gcc-ranlib-6.exe"
+      - "C:/Python314/gcc-ranlib-6"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-6"
+      - "C:/Windows/System32/gcc-ranlib-6.com"
+      - "C:/Windows/System32/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/gcc-ranlib-6"
+      - "C:/Windows/gcc-ranlib-6.com"
+      - "C:/Windows/gcc-ranlib-6.exe"
+      - "C:/Windows/gcc-ranlib-6"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-6"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-6"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib-6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib-6"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-6"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-6"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib-6"
+      - "C:/MinGW/bin/gcc-ranlib6.com"
+      - "C:/MinGW/bin/gcc-ranlib6.exe"
+      - "C:/MinGW/bin/gcc-ranlib6"
+      - "C:/Python314/Scripts/gcc-ranlib6.com"
+      - "C:/Python314/Scripts/gcc-ranlib6.exe"
+      - "C:/Python314/Scripts/gcc-ranlib6"
+      - "C:/Python314/gcc-ranlib6.com"
+      - "C:/Python314/gcc-ranlib6.exe"
+      - "C:/Python314/gcc-ranlib6"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib6.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib6.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib6"
+      - "C:/Windows/System32/gcc-ranlib6.com"
+      - "C:/Windows/System32/gcc-ranlib6.exe"
+      - "C:/Windows/System32/gcc-ranlib6"
+      - "C:/Windows/gcc-ranlib6.com"
+      - "C:/Windows/gcc-ranlib6.exe"
+      - "C:/Windows/gcc-ranlib6"
+      - "C:/Windows/System32/wbem/gcc-ranlib6.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib6.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib6"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib6"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib6"
+      - "C:/Program Files/nodejs/gcc-ranlib6.com"
+      - "C:/Program Files/nodejs/gcc-ranlib6.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib6"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib6"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib6"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/gcc-ranlib6"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/gcc-ranlib6"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6.com"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6.exe"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/gcc-ranlib6"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.com"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6.exe"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib6"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib6.com"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib6.exe"
+      - "C:/Users/tech/AppData/Roaming/npm/gcc-ranlib6"
+      - "C:/MinGW/bin/gcc-ranlib.com"
+    found: "C:/MinGW/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/bin/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/sbin/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/"
+    searched_directories:
+      - "C:/Python314/Scripts/windres.com"
+      - "C:/Python314/Scripts/windres.exe"
+      - "C:/Python314/Scripts/windres"
+      - "C:/Python314/windres.com"
+      - "C:/Python314/windres.exe"
+      - "C:/Python314/windres"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/nodejs/windres.com"
+      - "C:/Program Files/nodejs/windres.exe"
+      - "C:/Program Files/nodejs/windres"
+      - "C:/ProgramData/chocolatey/bin/windres.com"
+      - "C:/ProgramData/chocolatey/bin/windres.exe"
+      - "C:/ProgramData/chocolatey/bin/windres"
+      - "C:/Program Files/Git/cmd/windres.com"
+      - "C:/Program Files/Git/cmd/windres.exe"
+      - "C:/Program Files/Git/cmd/windres"
+      - "C:/MinGW/bin/windres.com"
+    found: "C:/MinGW/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SFML_Chess_Portfolio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SFML_Chess_Portfolio"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r"
+      binary: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_569bf/fast
+        C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_569bf.dir\\build.make CMakeFiles/cmTC_569bf.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r'
+        Building CXX object CMakeFiles/cmTC_569bf.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\tech\\AppData\\Local\\Temp\\ccfarxvY.s
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"
+        ignoring duplicate directory "/mingw/lib/gcc/mingw32/6.3.0/../../../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"
+        ignoring duplicate directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed
+         c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include
+        End of search list.
+        GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)
+        	compiled by GNU C version 6.3.0, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.2, isl version 0.15
+        warning: MPC header version 1.0.2 differs from library version 1.0.3.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: af09a87986453bf79da3565f33c7648f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\tech\\AppData\\Local\\Temp\\ccfarxvY.s
+        GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        Linking CXX executable cmTC_569bf.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_569bf.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls
+        Thread model: win32
+        gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_569bf.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+         c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\tech\\AppData\\Local\\Temp\\ccSLNbWu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_569bf.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_569bf.dir/objects.a --no-whole-archive --out-implib libcmTC_569bf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        collect2 version 6.3.0
+        c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\tech\\AppData\\Local\\Temp\\ccSLNbWu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_569bf.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_569bf.dir/objects.a --no-whole-archive --out-implib libcmTC_569bf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+        GNU ld (GNU Binutils) 2.28
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_569bf.exe' '-shared-libgcc' '-mtune=generic' '-march=i586'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_569bf.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_569bf.dir/objects.a @CMakeFiles\\cmTC_569bf.dir\\objects1.rsp
+        C:\\MinGW\\bin\\c++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_569bf.dir/objects.a -Wl,--no-whole-archive -o cmTC_569bf.exe -Wl,--out-implib,libcmTC_569bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        end of search list found
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include/c++/backward] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../include] ==> [C:/MinGW/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/include-fixed] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/include] ==> [C:/MinGW/mingw32/include]
+        implicit include dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++;C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32;C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward;C:/MinGW/lib/gcc/mingw32/6.3.0/include;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed;C:/MinGW/mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_569bf/fast]
+        ignore line: [C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_569bf.dir\\build.make CMakeFiles/cmTC_569bf.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/CMakeScratch/TryCompile-kryv2r']
+        ignore line: [Building CXX object CMakeFiles/cmTC_569bf.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/ C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i586 -auxbase-strip CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\tech\\AppData\\Local\\Temp\\ccfarxvY.s]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include"]
+        ignore line: [ignoring duplicate directory "/mingw/lib/gcc/mingw32/6.3.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/mingw32]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include/c++/backward]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (MinGW.org GCC-6.3.0-1) version 6.3.0 (mingw32)]
+        ignore line: [	compiled by GNU C version 6.3.0  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.2  isl version 0.15]
+        ignore line: [warning: MPC header version 1.0.2 differs from library version 1.0.3.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: af09a87986453bf79da3565f33c7648f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\tech\\AppData\\Local\\Temp\\ccfarxvY.s]
+        ignore line: [GNU assembler version 2.28 (mingw32) using BFD version (GNU Binutils) 2.28]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_569bf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        ignore line: [Linking CXX executable cmTC_569bf.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_569bf.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --with-gmp=/mingw --with-mpfr=/mingw --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --target=mingw32 --with-arch=i586 --enable-languages=c c++ objc obj-c++ fortran ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --with-tune=generic --enable-libgomp --disable-libvtv --enable-nls]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_569bf.exe' '-shared-libgcc' '-mtune=generic' '-march=i586']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\tech\\AppData\\Local\\Temp\\ccSLNbWu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_569bf.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_569bf.dir/objects.a --no-whole-archive --out-implib libcmTC_569bf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\tech\\AppData\\Local\\Temp\\ccSLNbWu.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_569bf.exe] ==> ignore
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0]
+          arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_569bf.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_569bf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        ignore line: [collect2 version 6.3.0]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe -plugin c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=c:/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\tech\\AppData\\Local\\Temp\\ccSLNbWu.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_569bf.exe c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. -v --whole-archive CMakeFiles\\cmTC_569bf.dir/objects.a --no-whole-archive --out-implib libcmTC_569bf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+        linker tool for 'CXX': c:/mingw/mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> [C:/MinGW/lib/crt2.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [C:/MinGW/lib/gcc/mingw32/6.3.0]
+        collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [C:/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [C:/MinGW/lib/crt2.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtbegin.o;C:/MinGW/lib/gcc/mingw32/6.3.0/crtend.o]
+        implicit dirs: [C:/MinGW/lib/gcc/mingw32/6.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "c:/mingw/mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.28
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "graphics"
+        required: true
+        found: false
+      -
+        name: "window"
+        required: true
+        found: false
+      -
+        name: "system"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFML.cps"
+        kind: "cps"
+      -
+        filename: "sfml.cps"
+        kind: "cps"
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2.5"
+      version_complete: "2.5"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SFML_Chess_Portfolio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SFML_Chess_Portfolio"
+...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:8 (find_package)"
+    name: "SFML"
+    components:
+      -
+        name: "graphics"
+        required: true
+        found: false
+      -
+        name: "window"
+        required: true
+        found: false
+      -
+        name: "system"
+        required: true
+        found: false
+    configs:
+      -
+        filename: "SFML.cps"
+        kind: "cps"
+      -
+        filename: "sfml.cps"
+        kind: "cps"
+      -
+        filename: "SFMLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "sfml-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "2.5"
+      version_complete: "2.5"
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "SFML"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/PATH_TO_YOUR_SFML/lib/cmake/SFML/SFML.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/PATH_TO_YOUR_SFML/lib/cmake/SFML/sfml.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/PATH_TO_YOUR_SFML/lib/cmake/SFML/SFMLConfig.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/PATH_TO_YOUR_SFML/lib/cmake/SFML/sfml-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/Desktop/CHESS_PROJECT/build/CMakeFiles/pkgRedirects/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/Scripts/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Python314/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Common Files/Oracle/Java/javapath/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/SFMLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/sfml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/SFML.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/sfml.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SFML_Chess_Portfolio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SFML_Chess_Portfolio"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/SFML-2.5.1/lib/cmake/SFML/SFMLConfig.cmake:79 (find_path)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "path"
+    variable: "SFML_DOC_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "SFML.tag"
+    candidate_directories:
+      - "C:/Python314/Scripts/SFML/doc/"
+      - "C:/Python314/Scripts/share/SFML/doc/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/SFML/doc/"
+      - "C:/Python314/share/SFML/doc/"
+      - "C:/Python314/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/SFML/doc/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/SFML/doc/"
+      - "C:/Windows/System32/share/SFML/doc/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/SFML/doc/"
+      - "C:/Windows/share/SFML/doc/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/SFML/doc/"
+      - "C:/Windows/System32/wbem/share/SFML/doc/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/SFML/doc/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/share/SFML/doc/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/nodejs/SFML/doc/"
+      - "C:/Program Files/nodejs/share/SFML/doc/"
+      - "C:/Program Files/nodejs/"
+      - "C:/ProgramData/chocolatey/bin/SFML/doc/"
+      - "C:/ProgramData/chocolatey/bin/share/SFML/doc/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Git/cmd/SFML/doc/"
+      - "C:/Program Files/Git/cmd/share/SFML/doc/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/MinGW/bin/SFML/doc/"
+      - "C:/MinGW/bin/share/SFML/doc/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/CMake/bin/SFML/doc/"
+      - "C:/Program Files/CMake/bin/share/SFML/doc/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/share/SFML/doc/"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/tech/AppData/Roaming/npm/SFML/doc/"
+      - "C:/Users/tech/AppData/Roaming/npm/share/SFML/doc/"
+      - "C:/Users/tech/AppData/Roaming/npm/"
+      - "C:/Program Files/include/SFML/doc/"
+      - "C:/Program Files/include/share/SFML/doc/"
+      - "C:/Program Files/include/"
+      - "C:/Program Files/SFML/doc/"
+      - "C:/Program Files/share/SFML/doc/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/include/SFML/doc/"
+      - "C:/Program Files (x86)/include/share/SFML/doc/"
+      - "C:/Program Files (x86)/include/"
+      - "C:/Program Files (x86)/SFML/doc/"
+      - "C:/Program Files (x86)/share/SFML/doc/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/include/SFML/doc/"
+      - "C:/Program Files/CMake/include/share/SFML/doc/"
+      - "C:/Program Files/CMake/include/"
+      - "C:/Program Files/CMake/SFML/doc/"
+      - "C:/Program Files/CMake/share/SFML/doc/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/SFML/doc/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/share/SFML/doc/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/SFML/doc/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/share/SFML/doc/"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/"
+      - "C:/SFML-2.5.1/lib/SFML/doc/"
+      - "C:/SFML-2.5.1/lib/share/SFML/doc/"
+      - "C:/SFML-2.5.1/lib/"
+      - "C:/Users/tech/Library/Frameworks/SFML/doc/"
+      - "C:/Users/tech/Library/Frameworks/share/SFML/doc/"
+      - "C:/Users/tech/Library/Frameworks/"
+      - "/Library/Frameworks/SFML/doc/"
+      - "/Library/Frameworks/share/SFML/doc/"
+      - "/Library/Frameworks/"
+      - "/usr/local/SFML/doc/"
+      - "/usr/local/share/SFML/doc/"
+      - "/usr/local/"
+      - "/usr/SFML/doc/"
+      - "/usr/share/SFML/doc/"
+      - "/usr/"
+      - "/sw/SFML/doc/"
+      - "/sw/share/SFML/doc/"
+      - "/sw/"
+      - "/opt/local/SFML/doc/"
+      - "/opt/local/share/SFML/doc/"
+      - "/opt/local/"
+      - "/opt/csw/SFML/doc/"
+      - "/opt/csw/share/SFML/doc/"
+      - "/opt/csw/"
+      - "/opt/SFML/doc/"
+      - "/opt/share/SFML/doc/"
+      - "/opt/"
+    searched_directories:
+      - "C:/Python314/Scripts/SFML/doc/SFML.tag"
+      - "C:/Python314/Scripts/share/SFML/doc/SFML.tag"
+      - "C:/Python314/Scripts/SFML.tag"
+      - "C:/Python314/SFML/doc/SFML.tag"
+      - "C:/Python314/share/SFML/doc/SFML.tag"
+      - "C:/Python314/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
+      - "C:/Windows/System32/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/share/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/SFML.tag"
+      - "C:/Windows/SFML/doc/SFML.tag"
+      - "C:/Windows/share/SFML/doc/SFML.tag"
+      - "C:/Windows/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/share/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/wbem/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/share/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/share/SFML/doc/SFML.tag"
+      - "C:/Windows/System32/OpenSSH/SFML.tag"
+      - "C:/Program Files/nodejs/SFML/doc/SFML.tag"
+      - "C:/Program Files/nodejs/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/nodejs/SFML.tag"
+      - "C:/ProgramData/chocolatey/bin/SFML/doc/SFML.tag"
+      - "C:/ProgramData/chocolatey/bin/share/SFML/doc/SFML.tag"
+      - "C:/ProgramData/chocolatey/bin/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/Git/cmd/SFML.tag"
+      - "C:/MinGW/bin/SFML/doc/SFML.tag"
+      - "C:/MinGW/bin/share/SFML/doc/SFML.tag"
+      - "C:/MinGW/bin/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/bin/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/bin/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/Scripts/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Python/Python312/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Microsoft/WindowsApps/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Local/Programs/Microsoft VS Code/bin/SFML.tag"
+      - "C:/Users/tech/AppData/Roaming/npm/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Roaming/npm/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/AppData/Roaming/npm/SFML.tag"
+      - "C:/Program Files/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/include/SFML.tag"
+      - "C:/Program Files/SFML/doc/SFML.tag"
+      - "C:/Program Files/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/share/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/share/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/include/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/include/SFML.tag"
+      - "C:/Program Files/CMake/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/share/SFML/doc/SFML.tag"
+      - "C:/Program Files/CMake/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/share/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/include/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/share/SFML/doc/SFML.tag"
+      - "C:/Program Files (x86)/SFML_Chess_Portfolio/SFML.tag"
+      - "C:/SFML-2.5.1/lib/SFML/doc/SFML.tag"
+      - "C:/SFML-2.5.1/lib/share/SFML/doc/SFML.tag"
+      - "C:/SFML-2.5.1/lib/SFML.tag"
+      - "C:/Users/tech/Library/Frameworks/SFML/doc/SFML.tag"
+      - "C:/Users/tech/Library/Frameworks/share/SFML/doc/SFML.tag"
+      - "C:/Users/tech/Library/Frameworks/SFML.tag"
+      - "/Library/Frameworks/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/share/SFML/doc/SFML.tag"
+      - "/Library/Frameworks/SFML.tag"
+      - "/usr/local/SFML/doc/SFML.tag"
+      - "/usr/local/share/SFML/doc/SFML.tag"
+      - "/usr/local/SFML.tag"
+      - "/usr/SFML/doc/SFML.tag"
+      - "/usr/share/SFML/doc/SFML.tag"
+      - "/usr/SFML.tag"
+      - "/sw/SFML/doc/SFML.tag"
+      - "/sw/share/SFML/doc/SFML.tag"
+      - "/sw/SFML.tag"
+      - "/opt/local/SFML/doc/SFML.tag"
+      - "/opt/local/share/SFML/doc/SFML.tag"
+      - "/opt/local/SFML.tag"
+      - "/opt/csw/SFML/doc/SFML.tag"
+      - "/opt/csw/share/SFML/doc/SFML.tag"
+      - "/opt/csw/SFML.tag"
+      - "/opt/SFML/doc/SFML.tag"
+      - "/opt/share/SFML/doc/SFML.tag"
+      - "/opt/SFML.tag"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Python\\Python312\\"
+        - "C:\\Users\\tech\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\tech\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\tech\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SFML_Chess_Portfolio"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/SFML_Chess_Portfolio"
+...
