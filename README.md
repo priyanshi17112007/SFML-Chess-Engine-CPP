@@ -5,6 +5,9 @@
 SFML Chess Engine is a desktop chess application developed using C++ and SFML (Simple and Fast Multimedia Library). The project provides an interactive graphical chessboard where players can play chess using standard chess rules and piece movements. It demonstrates object-oriented programming, game development concepts, and graphical user interface design in C++.
 
 ---
+## Screenshot
+
+![SFML Chess Engine](CHESS_CPP.png)
 
 ## Features
 
